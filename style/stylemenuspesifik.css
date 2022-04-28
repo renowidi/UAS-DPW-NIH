@@ -37,7 +37,7 @@
 }
 
 .form .icon{
-    position: absolute;
+    position: fixed;
     top: 30%;
     margin-left: 17px;
     margin-top: -112px;
