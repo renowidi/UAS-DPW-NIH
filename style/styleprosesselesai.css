@@ -77,3 +77,13 @@
     border: 1px solid black;
     border-radius: 10px;
 }
+
+.box1{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 400px;
+    margin-left: 35px;
+}
+p{
+    font-size: 20px;
+}
