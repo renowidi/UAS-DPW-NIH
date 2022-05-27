@@ -1,7 +1,21 @@
 .navbar{
-    background-color: #95CD41;
-    height: 40px;
-    padding-top: 0%;
+    background-color:  #95CD41;
+}
+
+.nav-item{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.navbar-brand{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 10px;
 }
 
 .navbar-toggler{
@@ -62,7 +76,6 @@
 }
 
 .img{
-    margin-top: 10px;
     margin-bottom: 0px;
     border: solid white; 
     border-radius: 10px;

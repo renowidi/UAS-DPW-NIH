@@ -100,8 +100,5 @@ h3{
 
 /*responsive mobile*/
 @media (min-width: 720px){
-    .navbar{
-        margin: auto;
-    }
 
 }
