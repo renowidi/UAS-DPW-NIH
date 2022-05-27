@@ -1,7 +1,32 @@
 .navbar{
-    background-color: #95CD41;
-    height: 40px;
-    padding-top: 0%;
+    background-color:  #95CD41;
+}
+
+.nav-item{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.navbar-brand{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3{
+    text-indent: 50px;
+    font-size: 40px;
+}
+
+.display-5{
+    text-indent: 50px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.tombol{
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+    margin-right: 20px;
 }
 
 .navbar-toggler{
@@ -34,6 +59,7 @@
     border: 1px solid black;
     border-radius: 5px;
     background-color: white;
+    margin-top: 10px;
 }
 
 .kesehatan{
@@ -71,3 +97,11 @@
     border: solid white; 
     border-radius: 10px;
 } */
+
+/*responsive mobile*/
+@media (min-width: 720px){
+    .navbar{
+        margin: auto;
+    }
+
+}
