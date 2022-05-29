@@ -1,0 +1,25 @@
+.navbar{
+    background-color:  #95CD41;
+}
+
+.nav-item{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.navbar-brand{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form-control{
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px;
+    border-left: none;
+}
+
+.btn{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 10px;
+}
