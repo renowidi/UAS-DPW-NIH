@@ -13,13 +13,13 @@
     font-weight: bold;
     font-size: 30px;
     text-align: center;
-    text-indent: 30px;
+    float: center;
 }
 
 .person{
     text-align: center;
     margin: 5px;
-    margin-left: 50px;
+    float: right;
 }
 
 .navbar-toggler-icon{
@@ -28,7 +28,7 @@
 
 .form-control{
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .kesehatan{
@@ -36,14 +36,14 @@
     font-size: 12px;
 }
 
-.form .icon{
-    position: absolute;
+/* .form .icon{
+    position: fixed;
     top: 30%;
     margin-left: 17px;
     margin-top: -112px;
     z-index: 1;
     color: #4f5b66;
-  }
+  } */
 
   .container{
       display: grid;
@@ -65,4 +65,16 @@
     margin-bottom: 0px;
     border: solid white; 
     border-radius: 10px;
+}
+
+.kedua{
+    background-color: #ffffff ;
+    box-shadow: 3px 3px 20px 3px rgb(178, 178, 184);
+    padding-top: 0%;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.btn{
+    margin-left: 30px;
 }
