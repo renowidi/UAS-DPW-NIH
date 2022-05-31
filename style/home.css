@@ -28,13 +28,13 @@ body{
 }
 
 .display-6{
-    font-size: 16px;
+    font-size: 14px;
     text-indent: -55%;
     margin-top: 3%;
 }
 
 .display-4{
-    font-size: 20px;
+    font-size: 16px;
     margin-left: 2%;
     margin-top: 1%;
     text-align: justify;
@@ -45,6 +45,7 @@ body{
     font-size: 20px;
     margin-top: 10%;
     margin-bottom:10%;
+    margin-left: -1,5%;
     color: white;
 }
 
@@ -54,6 +55,14 @@ body{
     margin-left: 5%;
     padding-top: 4%;
     padding-bottom: 4%;
+}
+
+.heading{
+    color: white;
+    font-weight: bold;
+    margin-top: 25%;
+    margin-left: -9%;
+    font-size: 25px;
 }
 
 a{
@@ -74,15 +83,22 @@ h2{
     font-weight: bold;
     font-size: 30px;
     margin-top: 1%;
-    margin-bottom: 2%;
+    margin-bottom: 0%;
     text-indent: 3%;
+}
+
+h3{
+    color: white;
+    font-weight: bold;
+    margin-top: 25%;
+    font-size: 25px;
 }
 
 p{
     margin-top: 3%;
     margin-right: 10%;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 100;
 }
 
 /* .article-card{
