@@ -1,7 +1,14 @@
 .navbar{
-    background-color: #95CD41;
-    height: 40px;
-    padding-top: 0%;
+    background-color:  #95CD41;
+}
+
+.nav-item{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.navbar-brand{
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .navbar-toggler{
@@ -31,7 +38,6 @@
     box-shadow: 3px 3px 20px 3px rgb(178, 178, 184);
     padding-top: 0%;
     border-radius: 10px;
-    margin-bottom: 50px;
 }
 
 .profile{
@@ -69,21 +75,13 @@
     margin-left: 80px;
 }
 
-.form-control{
-    width: 400px;
-}
+/*responsive mobile*/
+@media (max-width: 720px){
+ .jadwal{
+        margin-left: 90px;
+ }
 
-.form-control{
-    border: 1px solid black;
-    border-radius: 10px;
-}
-
-.box1{
-    border: 2px solid black;
-    border-radius: 10px;
-    width: 400px;
-    margin-left: 35px;
-}
-p{
-    font-size: 20px;
+ h5{
+     
+ }
 }

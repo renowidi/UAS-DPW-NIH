@@ -1,7 +1,32 @@
 .navbar{
-    background-color: #95CD41;
-    height: 40px;
-    padding-top: 0%;
+    background-color:  #95CD41;
+}
+
+.nav-item{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.navbar-brand{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3{
+    text-indent: 50px;
+    font-size: 40px;
+}
+
+.display-5{
+    text-indent: 50px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.tombol{
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+    margin-right: 20px;
 }
 
 .navbar-toggler{
@@ -13,13 +38,11 @@
     font-weight: bold;
     font-size: 30px;
     text-align: center;
-    float: center;
+    float: right;
 }
 
-.person{
-    text-align: center;
-    margin: 5px;
-    float: right;
+.button{
+    margin: 100px;
 }
 
 .navbar-toggler-icon{
@@ -29,6 +52,14 @@
 .form-control{
     border: 1px solid black;
     border-radius: 10px 10px 10px 10px;
+    border-left: none;
+}
+
+.btn{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 10px;
 }
 
 .kesehatan{
@@ -36,14 +67,14 @@
     font-size: 12px;
 }
 
-/* .form .icon{
+.form .icon{
     position: fixed;
     top: 30%;
     margin-left: 17px;
     margin-top: -112px;
     z-index: 1;
     color: #4f5b66;
-  } */
+  }
 
   .container{
       display: grid;
@@ -60,21 +91,14 @@
     padding-left: 0%;
 }
 
-.img{
+/* .img{
     margin-top: 10px;
     margin-bottom: 0px;
     border: solid white; 
     border-radius: 10px;
-}
+} */
 
-.kedua{
-    background-color: #ffffff ;
-    box-shadow: 3px 3px 20px 3px rgb(178, 178, 184);
-    padding-top: 0%;
-    border-radius: 10px;
-    margin-bottom: 50px;
-}
+/*responsive mobile*/
+@media (min-width: 720px){
 
-.btn{
-    margin-left: 30px;
 }

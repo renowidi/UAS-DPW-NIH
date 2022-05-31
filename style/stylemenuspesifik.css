@@ -1,7 +1,21 @@
 .navbar{
-    background-color: #95CD41;
-    height: 40px;
-    padding-top: 0%;
+    background-color:  #95CD41;
+}
+
+.nav-item{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.navbar-brand{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 10px;
 }
 
 .navbar-toggler{
@@ -13,11 +27,21 @@
     font-weight: bold;
     font-size: 30px;
     text-align: center;
+<<<<<<<< HEAD:uyu/styleBeranda.css
     float: right;
 }
 
 .button{
     margin: 100px;
+========
+    float: center;
+}
+
+.person{
+    text-align: center;
+    margin: 5px;
+    float: right;
+>>>>>>>> 169312a802d162c4a69840b32de0c18092656394:style/stylemenuspesifik.css
 }
 
 .navbar-toggler-icon{
@@ -28,12 +52,15 @@
     border: 1px solid black;
     border-radius: 10px 10px 10px 10px;
     border-left: none;
+<<<<<<<< HEAD:uyu/styleBeranda.css
 }
 
 .btn{
     border: 1px solid black;
     border-radius: 5px;
     background-color: white;
+========
+>>>>>>>> 169312a802d162c4a69840b32de0c18092656394:style/stylemenuspesifik.css
 }
 
 .kesehatan{
@@ -41,14 +68,18 @@
     font-size: 12px;
 }
 
+<<<<<<<< HEAD:uyu/styleBeranda.css
 .form .icon{
+========
+/* .form .icon{
+>>>>>>>> 169312a802d162c4a69840b32de0c18092656394:style/stylemenuspesifik.css
     position: fixed;
     top: 30%;
     margin-left: 17px;
     margin-top: -112px;
     z-index: 1;
     color: #4f5b66;
-  }
+  } */
 
   .container{
       display: grid;
@@ -65,9 +96,17 @@
     padding-left: 0%;
 }
 
+<<<<<<<< HEAD:uyu/styleBeranda.css
 /* .img{
     margin-top: 10px;
     margin-bottom: 0px;
     border: solid white; 
     border-radius: 10px;
 } */
+========
+.img{
+    margin-bottom: 0px;
+    border: solid white; 
+    border-radius: 10px;
+}
+>>>>>>>> 169312a802d162c4a69840b32de0c18092656394:style/stylemenuspesifik.css

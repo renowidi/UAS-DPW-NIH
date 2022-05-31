@@ -1,0 +1,61 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.awal{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.display-6{
+    font-size: 30px;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h6{
+    margin-top: 20px;
+    margin-bottom: 0%;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+h3{
+    margin-top: 0%;
+    margin-left: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.kami{
+    margin-top: -100px;
+}
+
+.tersedia{
+    margin-top: 60px;
+}
+
+p{
+    margin-top: 5%;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.form{
+    margin-top: 1px;
+}
+
+.form-control{
+    margin-top: 10px;
+    border: 1px solid black;
+}
+ 
+/*Responsive Mobile*/
+@media (max-width: 720px){
+    .kami{
+        margin-top: 40px;
+    }
+}

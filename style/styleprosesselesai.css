@@ -1,9 +1,23 @@
 .navbar{
-    background-color: #95CD41;
-    height: 40px;
-    padding-top: 0%;
+    background-color:  #95CD41;
 }
 
+.nav-item{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.navbar-brand{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.harga{
+    margin-top: 65px; 
+    text-align: start; 
+    color: red; 
+    margin-left: 90px; 
+    font-weight: bold;
+}
 .navbar-toggler{
     border: 0px;
 }
@@ -41,6 +55,13 @@
     margin-top: 50px;
 }
 
+.metode{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-indent: 40px;
+    margin-top: 50px;
+}
+
 .img{
     margin-left: 70px;
     margin-right: 70px;
@@ -55,7 +76,7 @@
     text-transform: uppercase;
     font-weight: bold;
     text-indent: 70px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .img-2{
@@ -70,10 +91,37 @@
 }
 
 .form-control{
-    width: 500px;
+    width: 400px;
 }
 
 .form-control{
     border: 1px solid black;
     border-radius: 10px;
+}
+
+.box1{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 400px;
+    margin-left: 35px;
+}
+
+p{
+    font-size: 20px;
+}
+
+/*Responsive Mobile*/
+@media (max-width : 720px){
+    .box1{
+        border: 2px solid black;
+        border-radius: 10px;
+        width: 400px;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+
+    .harga{
+        margin-left: 40px; 
+        margin-top: 10px;
+    }
 }
