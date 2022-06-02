@@ -115,7 +115,7 @@ a{
     margin-left: 1%;
 }
 
-.bdr{
+.bdr, .bdl, .bdm, .bdn, .bdb, .bdv{
     width: 95%;
     margin-left: 2.5%;
     padding-top: 5%;
@@ -185,11 +185,30 @@ a{
         margin-left: 3%;
     }
 
-    .bdr{
+    .bdr, .bdl, .bdm, .bdn, .bdb, .bdv{
         width: 150%;
-        margin-right: -1000%;
-        
     }
+
+    .bdr{
+        margin-right: 100%;
+    }
+
+    .bdm{
+        margin-left: 30%;
+    }
+    .bdn{
+        margin-left: 30%;
+    }
+    .bdb{
+        margin-left: 30%;
+    }
+    .bdb{
+        margin-left: 30%;
+    }
+    .bdv{
+        margin-left: 30%;
+    }
+
 
     #u{
         font-size: 12px;
