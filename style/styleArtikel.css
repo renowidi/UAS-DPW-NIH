@@ -156,6 +156,11 @@ p{
 
      /* batas atas*/
 
+    #gambar{
+        padding: 0%;
+        margin-left: -50%;
+    }
+
     .gambar{
         padding: 0%;
         margin-left: -50%;

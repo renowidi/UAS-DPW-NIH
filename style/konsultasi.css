@@ -93,6 +93,17 @@ a{
     /* margin-top: 5%; */
 }
 
+#head5{
+    font-size: 16px;
+    margin-left: 10%;
+}
+
+#hd5{
+    font-size: 16px;
+    font-weight: bold;
+    /* margin-top: 5%; */
+}
+
 #h2{
     font-size: 18px;
     font-weight: bold;
@@ -113,4 +124,154 @@ a{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     box-shadow: 4px 4px 16px 4px rgb(218 218 218);
+}
+
+.goog{
+    margin-top: -13%; margin-left: 12%;
+}
+
+#u{
+    font-size: 14px; margin-left: 5%; margin-top: 1%;
+}
+
+#q{
+    font-size: 14px; margin-left: 5%; margin-top: -8%; color: #A2C5B4;
+}
+
+#tiga{
+    font-size: 16px; margin-left: 5%; font-weight: bolder; margin-top: -5%;
+}
+
+.hdh{
+    font-size: 18px; color: #A2C5B4; font-weight:bolder; margin-top:10%; margin-left: -10%; text-align: center;
+}
+
+/*responsive mobile*/
+@media (max-width: 720px){
+    .head3{
+        font-size: 14px;
+    }
+
+    #head5{
+        font-size: 12px;
+    }
+
+    #im{
+        width: 50px;
+        height: 50px;
+    }
+
+    #hd5{
+        font-size: 10px;
+        margin-top: 10%;
+    }
+
+    .btn{
+        margin-top: 30%;
+    }
+
+    /*batas*/
+    #h2{
+        font-size: 16px;
+    }
+
+    #p{
+        font-size: 14px;
+    }
+
+    #ada{
+        width: 98px;
+        height: 80px;
+        margin-left: 3%;
+    }
+
+    .bdr{
+        width: 150%;
+        margin-right: -1000%;
+        
+    }
+
+    #u{
+        font-size: 12px;
+    }
+
+    #q{
+        font-size: 10px;
+    }
+
+    #tiga{
+        font-size: 12px;
+    }
+
+    .hdh{
+        font-size: 12px;
+        margin-right:-65% ;
+        margin-top: 25%;
+    }
+
+    .hds{
+        font-size: 10px;
+        margin-top: 5px;
+    }
+
+    .kpl{
+        margin-right: -55%;
+        margin-top: -40%;
+    }
+    /* batas atas*/
+    .gambar{
+        padding: 0%;
+        margin-left: -50%;
+    }
+
+    .navbar{
+        margin-top: 7%;
+        margin-left: 55%;
+    }
+
+    .form-control{
+        margin-right: -75%;
+    }
+
+    /* batas atas*/
+
+    /*footer*/
+    .display-5{
+        font-size: 14px;
+        margin-top: 10%;
+        margin-bottom:10%;
+        margin-left: -1%;
+        color: white;
+    }
+
+    .heading{
+        color: white;
+        font-weight: bold;
+        margin-top: 25%;
+        margin-left: -9%;
+        font-size: 16px;
+    }
+
+    .konsul{
+        font-size: 7px; 
+        margin-top: 10%; 
+        margin-bottom: 5%; 
+        margin-left: -5%;
+    }
+
+    .foot{
+        width: 20px;
+        height: 20px;
+        margin-right: 5%;
+    }
+
+    .goog, .gog{
+        width: 50px;
+        height: 50px;
+    }
+
+    .goog{
+        margin-left: 13%;
+        margin-top: -13%;
+    }
 }

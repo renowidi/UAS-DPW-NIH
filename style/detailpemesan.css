@@ -66,6 +66,11 @@ a{
     margin-bottom: 5%;
 }
 
+.nav-item{
+    margin-left: 9%;
+    margin-top: -7%;
+}
+
 /*batas*/
 h3, .haha{
     font-weight: bolder;
@@ -118,10 +123,10 @@ h4{
     /* margin-top: 5%; */
 }
 
-.form{
+/* .form{
     margin-top: 5%;
     width: 200px;
-}
+} */
 
 .goog{
     margin-top: -13%; margin-left: 12%;
