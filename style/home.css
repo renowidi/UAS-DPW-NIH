@@ -76,6 +76,10 @@ body{
     margin-right: 8%;
 }
 
+.goog{
+    margin-top: -13%; margin-left: 12%;
+}
+
 a{
     font-size: 18px;
 }
@@ -197,7 +201,7 @@ p{
     }
 
     .konsul{
-        font-size: 10px; 
+        font-size: 7px; 
         margin-top: 10%; 
         margin-bottom: 5%; 
         margin-left: -5%;
@@ -206,6 +210,15 @@ p{
     .foot{
         width: 30px;
         height: 30px;
+    }
+
+    .goog, .gog{
+        width: 50px;
+        height: 50px;
+    }
+
+    .goog{
+        margin-left: 25%;
     }
 
 }
