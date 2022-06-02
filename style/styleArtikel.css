@@ -52,29 +52,6 @@ body{
     font-size: 25px;
 }
 
-/* .navbar{
-    background-color:  #95CD41;
-}
-
-.nav-item{
-    margin-right: 20px;
-    margin-left: 20px;
-}
-
-.navbar-brand{
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.form-control{
-    border: 1px solid black;
-    border-radius: 10px 10px 10px 10px;
-    border-left: none;
-}
-
-.navbar-toggler{
-    border: 0px;
-} */
-
 .btn{
     border: 1px solid black;
     border-radius: 5px;
@@ -82,7 +59,7 @@ body{
     margin-top: 10px;
 }
 
-.display-5{
+.dis-5{
     text-indent: 8px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -109,20 +86,42 @@ p{
     width: 100%;
     height: auto;
     grid-column: span 8;
-    margin: 10px 0;
+    margin-right: -100%;
     border-radius: 15px;
     position: relative;
     box-shadow: 0 10px 10px rgba(0,0,0,.1);
     padding-left: 0%;
     background-color: white;
 }
+.display-5{
+    font-size: 20px;
+    margin-top: 10%;
+    margin-bottom:10%;
+    margin-left: 28%;
+    color: white;
+}
+
+.goog{
+    margin-top: -13%; margin-left: 12%;
+}
+
 
 /*Responsive Mobile*/
 @media (max-width: 720px){
-    img{
+    /* img{
         width: 100px;
         height: 100px;
-    }
+    } */
+
+   .article-card{
+       width: 210px;
+       background-color: white;
+   }
+
+   .col-3{
+       margin-left: 5%;
+       margin-right: 20%;
+   }
 
     .d-block{
         width: auto;
@@ -139,10 +138,78 @@ p{
         background-color: white;
         margin-top: 0px;
         margin-bottom: 0px;
+        margin-left: 35%;
+        font-size: 12px;
     }
 
     p{
-        margin-top: 20px;
+        margin-top: 10px;
+        font-size: 10px;
+        margin-left: 30%;
+    }
+
+    .lagi{
+        width: 200px;
+        height: 100px;
+        margin-left: 33%;
+    }
+
+     /* batas atas*/
+
+    .gambar{
+        padding: 0%;
+        margin-left: -50%;
+    }
+
+    .navbar{
+        margin-top: 7%;
+        margin-left: 55%;
+    }
+
+    .form-control{
+        margin-right: -75%;
+    }
+
+    /* batas atas*/
+
+    /*footer*/
+    .display-5{
+        font-size: 14px;
+        margin-top: 10%;
+        margin-bottom:10%;
+        margin-left: -1%;
+        color: white;
+    }
+
+    .heading{
+        color: white;
+        font-weight: bold;
+        margin-top: 25%;
+        margin-left: -9%;
+        font-size: 16px;
+    }
+
+    .konsul{
+        font-size: 7px; 
+        margin-top: 10%; 
+        margin-bottom: 5%; 
+        margin-left: -5%;
+    }
+
+    .foot{
+        width: 20px;
+        height: 20px;
+        margin-right: 5%;
+    }
+
+    .goog, .gog{
+        width: 50px;
+        height: 50px;
+    }
+
+    .goog{
+        margin-left: 13%;
+        margin-top: -13%;
     }
 
 }

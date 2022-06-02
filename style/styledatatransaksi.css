@@ -125,3 +125,70 @@ a{
 .btn{
     margin-left: 30px;
 }
+
+.goog{
+    margin-top: -13%; margin-left: 12%;
+}
+
+/*responsive mobile*/
+@media (max-width: 720px){
+
+
+    /* batas atas*/
+
+    .gambar{
+        padding: 0%;
+        margin-left: -50%;
+    }
+
+    .navbar{
+        margin-top: 7%;
+        margin-left: 55%;
+    }
+
+    .form-control{
+        margin-right: -75%;
+    }
+
+    /* batas atas*/
+
+    /*footer*/
+    .display-5{
+        font-size: 14px;
+        margin-top: 10%;
+        margin-bottom:10%;
+        margin-left: -1%;
+        color: white;
+    }
+
+    .heading{
+        color: white;
+        font-weight: bold;
+        margin-top: 25%;
+        margin-left: -9%;
+        font-size: 16px;
+    }
+
+    .konsul{
+        font-size: 7px; 
+        margin-top: 10%; 
+        margin-bottom: 5%; 
+        margin-left: -5%;
+    }
+
+    .foot{
+        width: 20px;
+        height: 20px;
+        margin-right: 5%;
+    }
+
+    .goog, .gog{
+        width: 50px;
+        height: 50px;
+    }
+
+    .goog{
+        margin-left: 13%;
+        margin-top: -13%;
+    }
+}

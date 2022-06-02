@@ -67,7 +67,7 @@ a{
 }
 
 /*batas*/
-h3{
+h3, .haha{
     font-weight: bolder;
     font-size: 25px;
 }
@@ -120,4 +120,146 @@ h4{
 
 .form{
     margin-top: 5%;
+    width: 200px;
+}
+
+.goog{
+    margin-top: -13%; margin-left: 12%;
+}
+
+ul{
+    margin-left: 20%; 
+    margin-top: 5%;
+}
+/*responsive mobile*/
+@media (max-width: 720px){
+
+    h3, .haha{
+        font-size: 18px;
+        margin-left: -30%;
+    }
+    h4{
+        font-size: 16px;
+    }
+
+    .kotak-isi{
+        margin-left: -30%;
+        width: 250px;
+    }
+
+    .skt{
+        width: 230px;
+        height: 150px;
+    }
+
+    /**/
+    .kotak-kedua{
+        width: 400px;
+        height: 227px;
+        margin-left: -30%;
+    }
+
+    .jp{
+        margin-top: 1%;
+        margin-left: 5%;
+    }
+
+    #empat{
+        font-size: 14px;
+        margin-left: -15%;
+        margin-top: 15%;
+    }
+
+    #harga{
+        font-size: 12px;
+        margin-left: -15%;
+    }
+
+    .btn{
+        margin-left: -30%;
+        margin-top: 10%;
+    }
+
+    .hd5{
+        font-size: 14px;
+    }
+
+    /**/
+    ul{
+        margin-left: 5%;
+    }
+
+    li{
+        margin-left: 10%;
+        font-size: 12px;
+    }
+
+    form{
+        margin-left: 5%;
+        margin-top: -5%;
+    }
+
+    .form{
+        width: 90%;
+        font-size: 12px;
+    }
+
+
+     /* batas atas*/
+
+     .gambar{
+        padding: 0%;
+        margin-left: -50%;
+    }
+
+    .navbar{
+        margin-top: 7%;
+        margin-left: 55%;
+    }
+
+    .form-control{
+        margin-right: -75%;
+    }
+
+    /* batas atas*/
+
+    /*footer*/
+    .display-5{
+        font-size: 14px;
+        margin-top: 10%;
+        margin-bottom:10%;
+        margin-left: -1%;
+        color: white;
+    }
+
+    .heading{
+        color: white;
+        font-weight: bold;
+        margin-top: 25%;
+        margin-left: -9%;
+        font-size: 16px;
+    }
+
+    .konsul{
+        font-size: 7px; 
+        margin-top: 10%; 
+        margin-bottom: 5%; 
+        margin-left: -5%;
+    }
+
+    .foot{
+        width: 20px;
+        height: 20px;
+        margin-right: 5%;
+    }
+
+    .goog, .gog{
+        width: 50px;
+        height: 50px;
+    }
+
+    .goog{
+        margin-left: 13%;
+        margin-top: -13%;
+    }
 }
